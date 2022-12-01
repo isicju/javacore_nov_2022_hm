@@ -17,7 +17,7 @@ public class StringFeaturesTest extends DefaultTest {
     }
 
     @Test
-    public void checkValidPhone() {
+    public void checkReverseStriing() {
         assertThat(stringFeatures.reverseString("home"), equalTo("emoh"));
     }
 
