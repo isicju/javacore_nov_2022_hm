@@ -27,7 +27,7 @@ public class ValidationFeaturesTest extends DefaultTest {
     public void invalidName(){
         String wordWithNumericChars = "John123";
         boolean isValidName = validationFeatures.isValidName(wordWithNumericChars);
-        assertThat(true, equalTo(isValidName));
+        assertThat(false, equalTo(isValidName));
     }
 
     @Test
