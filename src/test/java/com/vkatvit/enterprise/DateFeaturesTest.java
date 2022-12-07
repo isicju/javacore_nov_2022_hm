@@ -45,7 +45,7 @@ public class DateFeaturesTest extends DefaultTest {
 
 
     @Test
-    void buildDateTime() {
+    public void buildDateTime() {
         DateTime time = dateFeatures.buildDateTime(12, 3, 2000);
 
         DateTime expected = DateTime.parse("2000-03-12");
